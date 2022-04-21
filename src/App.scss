@@ -1,0 +1,20 @@
+@import url(./singup.scss);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    color: #586870;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
