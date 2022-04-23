@@ -9,7 +9,7 @@ export default function Singup() {
             <div className="title">
             <a href="#">Sing In</a>
             <a href="#">Sing Up</a>
-        </div>
+            </div>
         <img src="../img/Vector.png" className="vector" alt="img" />
             </div>
 <div className="singup" id="singup">
@@ -33,6 +33,7 @@ export default function Singup() {
         </div>
         <div className="form-input">
         <label htmlFor="password">password*</label>
+        <img className="eye" src="./img/eye-alt.png" alt="eye" />
         <input type="password" id="password" name="password"></input>
         </div>
         </div>
@@ -44,9 +45,9 @@ export default function Singup() {
         <p>or Sign Up via</p>
         <button className="btn-soc">Facebook</button>
         <button className="btn-soc">Google</button>
-        <p>by clicking submit you agree to
-the Terms and Conditions</p>
-<img src="../img/Group3.png" alt="img" />
+        <p>by clicking submit you agree to <br/>
+            the Terms and Conditions</p>
+<img className="flo" src="../img/Group3.png" alt="img" />
     </div>
     </div>
 </div>

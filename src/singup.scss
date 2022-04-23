@@ -7,13 +7,10 @@
 
 .singup-header {
     display: flex;
-    top: 0;
-    left: 0;
     width: 620px;
     height: 42px;
     align-items: center;
-    justify-content: center;
-   justify-content: space-between;
+    
 }
 
 
@@ -41,4 +38,76 @@
 
 label {
     position: relative;
+    margin-top: 14px;
 }
+
+input {
+width: 248px;
+height: 34px;
+border-radius: 8px;
+border: solid 0.5px rgba(89, 87, 186, 1);
+}
+
+.btn-signup {
+    margin-top: 20px;
+   color: #fff;
+   font-weight: 600;
+   padding: 8px 20px;
+   border-radius: 8px;
+   background: linear-gradient(180deg, rgba(110, 108, 224, 0.3)
+    0%, rgba(77, 76, 173, 0.3) 100%);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-signup:hover {
+    background:rgba(89, 87, 186, 1);
+}
+
+.eye {
+    width: 24px;
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 215px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.btn-soc {
+    width: 190px;
+    height: 34px;
+    border: solid 0.5px rgba(89, 87, 186, 1);
+    color: rgba(89, 87, 186, 1);
+    font-weight: 600;
+    margin: 14px 0;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.flo {
+    width: 136px;
+    height: 210px;
+}
+
+.form {
+    align-items: center;
+    width: 379px;
+}
+
+.title {
+    width: 300px;
+a{
+    margin-left: 50px;
+}
+
+}
+
